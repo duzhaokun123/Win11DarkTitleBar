@@ -34,6 +34,15 @@ just feel it
 
 ![so dark](arts/dark.png)
 
+### known issues
+
+- obs can't launch
+  
+  ![obs](arts/obs.png)
+  - replace [Detours][Locale_Remulator](https://github.com/InWILL/Locale_Remulator)'s `LRHookx64.dll` with `Hook64.dll`, and launch using lr
+
+- no effect on some window (like `MessageBox`)
+
 ## Thanks
 
 [Detours](https://github.com/microsoft/Detours)
