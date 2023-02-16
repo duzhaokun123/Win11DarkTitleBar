@@ -5,6 +5,10 @@
 
 简体中文 | [English](README.md)
 
+## 下载
+
+[GitHub Release](https://github.com/duzhaokun123/Win11DarkTitleBar/releases)
+
 ### 为什么暗色标题栏?
 
 许多使用 Qt, gtk ... 的应用 (比如 OBS Studio, Krita, GIMP ...) 提供了暗色主题但没有暗色标题栏

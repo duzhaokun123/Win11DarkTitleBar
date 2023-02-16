@@ -5,6 +5,10 @@
 
 [简体中文](README_zh_CN.md) | English
 
+## Download
+
+[GitHub Release](https://github.com/duzhaokun123/Win11DarkTitleBar/releases)
+
 ### Why dark title bar?
 
 many app using Qt, gtk ... (like OBS Studio, Krita, GIMP ...) provided dark theme but has no effect on title bar
