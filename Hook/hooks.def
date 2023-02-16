@@ -1,0 +1,4 @@
+﻿LIBRARY DarkTitleBar
+EXPORTS
+    HookCreateWindowExA @1
+    HookCreateWindowExW @2
