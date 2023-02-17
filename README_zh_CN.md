@@ -19,7 +19,7 @@
 
 ### 如何暗色标题栏?
 
-从 Windows 11 Build 22000 开始, Windows 提供了一个新的 Win32 api 使得使用深色标题栏更容易
+从 Windows 11 Build 22000 起, Windows 提供了一个新的 Win32 api 用于更容易地实现暗色标题栏
 
 [为 Win32 应用程序启用深色模式标题栏](https://learn.microsoft.com/zh-cn/windows/apps/desktop/modernize/apply-windows-themes#enable-a-dark-mode-title-bar-for-win32-applications)
 
