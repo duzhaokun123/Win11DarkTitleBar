@@ -23,10 +23,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     }
 
 #ifdef _DEBUG
-    MessageBoxA(nullptr, lpCmdLine, "Win11DarkTitleBar", NULL);
+    MessageBoxA(nullptr, lpCmdLine, "lpCmdLine", NULL);
 #endif
 
-    auto dllPath = (std::filesystem::current_path() / ("Hook" + dll + ".dll")).string();
+    auto exePath = (CHAR*)malloc(sizeof(CHAR) * MAX_PATH);
+    GetModuleFileNameA(nullptr, exePath, MAX_PATH);
+    auto dllPath = (std::string)exePath + "/../Hook" + dll + ".dll";
     
     STARTUPINFOA si;
     PROCESS_INFORMATION pi;
