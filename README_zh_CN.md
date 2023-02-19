@@ -39,8 +39,7 @@ BOOL value = TRUE;
 - obs 启动报错
 
   ![obs](arts/obs.png)
-  - 用`Hook64.dll`替换[Locale_Remulator](https://github.com/InWILL/Locale_Remulator)的`LRHookx64.dll`后用 lr 启动
-    - 所以很有可能我启动器写得有问题
+  - 工作路径错误 应设置成 obs 安装 exe 所在路径
 - 部分窗口(比如`MessageBox`)无效
 
 ## Thanks

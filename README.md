@@ -39,7 +39,7 @@ just feel it
 - obs can't launch
   
   ![obs](arts/obs.png)
-  - replace [Locale_Remulator](https://github.com/InWILL/Locale_Remulator)'s `LRHookx64.dll` with `Hook64.dll`, and launch using lr
+  - wrong workdir, chang it to obs exe dir
 
 - no effect on some window (like `MessageBox`)
 
